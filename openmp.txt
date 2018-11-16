@@ -1,0 +1,10 @@
+Commands for openmp
+gcc -fopenmp filename.c
+Export OMP_NUM_THREADS=num
+./a.out
+
+parallel fraction gives you the percentage of code taht can be parallelized.
+
+start=omp_get_wtime();
+end=omp_get_wtime();
+timeelapsed=end-start;
